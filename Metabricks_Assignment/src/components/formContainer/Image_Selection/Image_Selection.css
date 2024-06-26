@@ -1,0 +1,142 @@
+.image_selection_form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.file_upload_div {
+    width: 45.45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--f-15);
+    background: #8E8E8E26;
+    border-radius: var(--f-14);
+    color: #FFFFFF82;
+    font-family: var(--f-int);
+    font-style: italic;
+}
+
+.file_upload_div img {
+    width: 7.74%;
+    height: 10.26%;
+}
+
+.file_upload_div input {
+    width: 100%;
+    height: 100%;
+}
+
+.file_label {
+    display: inline-block;
+    text-align: center;
+    font-size: var(--f-14);
+    font-weight: 300;
+}
+
+.file_label span {
+    font-weight: 700;
+}
+
+.file_hint {
+    display: inline-block;
+    text-align: center;
+    font-size: var(--f-11);
+    font-weight: 300;
+}
+
+.middle_block {
+    width: 22.40%;
+    height: 100%;
+}
+
+.or_div {
+    width: 100%;
+    height: 9.16%;
+}
+
+.or_div img {
+    width: 100%;
+    height: 100%;
+}
+
+.take_pic_block {
+    width: 100%;
+    height: 89.38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #8E8E8E26;
+    border-radius: var(--f-12);
+    gap: var(--f-5);
+}
+
+.take_pic_block span {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-white);
+    opacity: 51%;
+    font-size: var(--f-14);
+    font-weight: 400;
+    font-family: var(--f-int);
+}
+
+.take_pic_block img {
+    width: 17.43%;
+    height: 18.26%;
+}
+
+.sample_images_gender {
+    width: 26.02%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--f-12);
+}
+
+.threed_text_gender_block {
+    width: 100%;
+    height: 65.07%;
+}
+
+.sample_image_block {
+    width: 100%;
+    height: 35.97%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--f-5);
+}
+
+.sample_image_block p {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    font-size: var(--f-15);
+    font-family: var(--f-int);
+    font-weight: 300;
+    color: var(--c-white);
+    font-style: italic;
+}
+
+.images {
+    width: 90%;
+    height: 77.78%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3.26%;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}

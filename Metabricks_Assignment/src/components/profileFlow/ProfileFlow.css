@@ -1,0 +1,90 @@
+.profile_flow_container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.26%;
+  row-gap: 3.01%;
+}
+
+.profile_card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--f-17);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: var(--f-44);
+}
+
+.profile_card p {
+  width: 100%;
+  min-height: 42.32%;
+  height: fit-content;
+  padding: var(--f-18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #14141469;
+  border-radius: var(--f-25);
+  font-family: var(--f-int);
+}
+
+.profile_card img {
+  width: 1.75%;
+  height: 5.51%;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  cursor: pointer;
+}
+
+.menu_options {
+  width: 30%;
+  position: absolute;
+  top: 12%;
+  right: -20%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  z-index: 10;
+}
+
+.menu_options button {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu_options button:hover {
+  background-color: var(--c-grey-translucent);
+}
+
+@media (max-width: 1024px) {
+  .profile_flow_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .profile_flow_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .profile_flow_container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.26%;
+  }
+}

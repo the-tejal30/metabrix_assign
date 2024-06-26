@@ -1,0 +1,22 @@
+.headtext_container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headtext_container .text {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	font-family: var(--f-lal);
+	font-size: var(--f-44);
+	font-weight: 400;
+	color: var(--c-white);
+	text-align: center;
+}
+
+.headtext_container .highlight {
+	color: var(--c-cyan);
+}

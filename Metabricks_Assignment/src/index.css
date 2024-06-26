@@ -1,0 +1,35 @@
+:root {
+    /* fonts */
+    --f-int: "Inter", sans-serif;
+    --f-lal: "Lalezar", system-ui;
+    
+    /* font sizes */
+    --f-5: clamp(0.021875rem, 0rem + 0.35vw, 2.1875rem);/*0.35*/
+    --f-11: clamp(0.0475rem, 0rem + 0.76vw, 4.75rem);/*0.76%*/
+    --f-12: clamp(0.051875rem, 0rem + 0.83vw, 5.1875rem);/*0.83*/
+    --f-13: clamp(0.05625rem, 0rem + 0.9vw, 5.625rem);/*0.90*/
+    --f-14: clamp(0.060625rem, 0rem + 0.97vw, 6.0625rem);/*0.97%*/
+    --f-15: clamp(0.065rem, 0rem + 1.04vw, 6.5rem);/*1.04%*/
+    --f-16: clamp(0.069375rem, 0rem + 1.11vw, 6.9375rem);/*1.11%*/
+    --f-17: clamp(0.07375rem, 0rem + 1.18vw, 7.375rem);/*1.18%*/
+    --f-18: clamp(0.078125rem, 0rem + 1.25vw, 7.8125rem);/*1.25%*/
+    --f-20: clamp(0.086875rem, 0rem + 1.39vw, 8.6875rem);/*1.39*/
+    --f-22: clamp(0.095625rem, 0rem + 1.53vw, 9.5625rem);/*1.53%*/
+    --f-23: clamp(0.1rem, 0rem + 1.6vw, 10rem);/*1.60%*/
+    --f-25: clamp(0.10875rem, 0rem + 1.74vw, 10.875rem);/*1.74%*/
+    --f-26: clamp(0.113125rem, 0rem + 1.81vw, 11.3125rem);/*1.81%*/
+    --f-28: clamp(0.12125rem, 0rem + 1.94vw, 12.125rem);/*1.94*/
+    --f-31: clamp(0.134375rem, 0rem + 2.15vw, 13.4375rem);/*2.15%*/
+    --f-34: clamp(0.1475rem, 0rem + 2.36vw, 14.75rem);/*2.36%*/
+    --f-44: clamp(0.19125rem, 0rem + 3.06vw, 19.125rem);/*3.06%*/
+    --f-81: clamp(0.351875rem, 0rem + 5.63vw, 35.1875rem);/*5.63*/
+    /* colors */
+    --c-cyan: #00FFFF;
+    --c-white: #FFFFFF;
+    --c-grey-translucent: #8E8E8E26;
+    --c-light-blue-translucent: #00C2FF75;
+    --c-pink-translucent: #FF0DBB80;
+    --c-light-blue: #66C4D9;
+    --c-yellow: #FFC107;
+    --c-dark-grey-translucent: #14141469;
+}
